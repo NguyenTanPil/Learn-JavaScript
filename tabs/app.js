@@ -3,7 +3,6 @@ const about = document.querySelector('.btn-container');
 const contents = document.querySelectorAll('.content');
 about.addEventListener('click', (e) => {
 	const id = e.target.dataset.id;
-	console.log(id);
 	// remove all active class from other btn
 	btns.forEach((btn) => {
 		btn.classList.remove('active');
